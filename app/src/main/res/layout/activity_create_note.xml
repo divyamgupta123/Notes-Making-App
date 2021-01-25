@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreateNote">
+
+    <EditText
+        android:id="@+id/noteTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@null"
+        android:gravity="start"
+        android:hint="Title"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/noteTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@null"
+        android:gravity="start"
+        android:hint="Text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:onClick="submitData"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

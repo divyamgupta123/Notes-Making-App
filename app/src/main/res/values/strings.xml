@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Make Notes</string>
+    <string name="submit">Submit</string>
+    <string name="enter_note_here">Enter Note Here</string>
+    <string name="title">Title</string>
+</resources>
