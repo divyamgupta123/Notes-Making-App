@@ -19,7 +19,8 @@
         android:hint="Title"
         android:textColor="@color/black"
         android:textSize="22sp"
-        app:layout_constraintVertical_weight="2" />
+        app:layout_constraintVertical_weight="2"
+        android:textColorHint="@color/black"/>
 
     <TextView
         android:layout_width="300dp"
@@ -37,7 +38,8 @@
         android:gravity="start"
         android:hint="Text"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColorHint="@color/black"/>
 
     <Button
         android:id="@+id/submitButton"
